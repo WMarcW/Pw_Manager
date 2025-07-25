@@ -16,6 +16,11 @@
             "username": "Mr.SweetanI",
             "hash": "73e685900e23e1a4b86b443f9118058091aab93fbedf311b5dabc2ac2bb1eda8",
             "salt": "00dae545b2b5da5b9e57aa5a8568a3f5"
+        },
+        {
+            "username": "marcelDavis",
+            "hash": "9b49515b97b652640ab49f8d8fc7a8ba03217ab1933ae17a43f028e8324586a7",
+            "salt": "b28bb2c3caf3563f04cb57d3e2406a86"
         }
     ],
     "youtube.com": [
@@ -23,6 +28,25 @@
             "username": "Rechteinfach",
             "hash": "1d549d533b2df0af3a1477c8b63960f4ddd4551c6761a49b82b48f350c03dc7f",
             "salt": "9e2db3b020d198be87d03f9fa7c18589"
+        },
+        {
+            "username": "PewDiePie",
+            "hash": "f7d549782ae1b4658425dc1486930ba5982d741d7714940fe0823dd1c3d99a8b",
+            "salt": "370f988d77612c2790a2ad55d418a807"
+        }
+    ],
+    "instagram": [
+        {
+            "username": "testsetsdtse ",
+            "hash": "c80e9610c464c8fdd9dc9d990273750406dc9d14d3bd302da59389fd46e24ccf",
+            "salt": "e9f40b2e9158b0b3733228f45891d75a"
+        }
+    ],
+    "xHamster": [
+        {
+            "username": "GobblerMaster",
+            "hash": "f0c7dd88e07338fd2156a01d461f9c01dcd4d781a73dd934eabbb8c837f8ef7b",
+            "salt": "2e2acba76edffd97af4ce3b1a1c1a155"
         }
     ]
 }

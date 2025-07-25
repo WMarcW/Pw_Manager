@@ -22,7 +22,7 @@ for website, eintraege in daten.items():
         eintraege = [eintraege]
     for eintrag in eintraege:
         rows.append({
-            "Website": eintrag["username"],
+            "Website": website,
             "Username": eintrag["username"],
             "Hash": eintrag["hash"],
             "Salt": eintrag["salt"]
