@@ -38,7 +38,8 @@ def hashen():
     return rdm_passwort, salt, hash_hex
 
 
-def main():
+def eintrag_speichern(website, username):
+    plain_pw, salt, hash_value = hashen()
     # .json datei erstellen
     if not os.path.exists("passwoerter.json"):
         with open("passwoerter.json", "w") as f:
@@ -51,10 +52,10 @@ def main():
     except json.decoder.JSONDecodeError:
         daten = {}
 
-    # eingabe vom nutzer
-    website = input("Website: ")
-    username = input("Benutzername: ")
-    plain_pw, salt, hash_value = hashen()
+    # # eingabe vom nutzer
+    # website = input("Website: ")
+    # username = input("Benutzername: ")
+    # plain_pw, salt, hash_value = hashen()
 
     # neuen eintrag hinzfg.
     if website not in daten:
@@ -70,6 +71,4 @@ def main():
     with open("passwoerter.json", "w") as f:
         json.dump(daten, f, indent=4)
 
-
-if __name__ == "__main__":
-    main()
+    return plain_pw

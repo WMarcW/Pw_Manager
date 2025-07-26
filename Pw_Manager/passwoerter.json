@@ -48,5 +48,19 @@
             "hash": "f0c7dd88e07338fd2156a01d461f9c01dcd4d781a73dd934eabbb8c837f8ef7b",
             "salt": "2e2acba76edffd97af4ce3b1a1c1a155"
         }
+    ],
+    "leagueoflegends.com": [
+        {
+            "username": "Bubblefish",
+            "hash": "a23e84b1a1e38e24a47f5e628abacec2db553baa16a9514b66f22c0f6fd23c90",
+            "salt": "d0d4fc7aea5711abc26facd5c7934cc5"
+        }
+    ],
+    "google.com": [
+        {
+            "username": "tiberius5231",
+            "hash": "6e64b72b02a216c941cf3827c61075e658b2ebf40fb82d6fd03f6b683525c90f",
+            "salt": "7effddbe0646e5bc1ca6d1a6b5add124"
+        }
     ]
 }
